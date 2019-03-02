@@ -1,0 +1,227 @@
+/* CSS Document */
+#all-content{
+	/*border-right: 1px solid #9f9f9f;
+	border-left: 1px solid #9f9f9f;*/
+	width:1004px;
+	overflow:auto;
+	margin:0px auto;
+	background: #ffffff;
+	padding-bottom: 20px;
+}
+
+/*图片库*/
+#all-content .title{
+	width: 1004px;
+	height: 77px;
+	background: url(../tips_picture/ziyuan.png) no-repeat;
+	
+}
+
+
+/*搜索框*/
+#search{
+	/*border:1px solid red;*/
+	overflow: hidden;
+}
+#search form{
+	border:2px solid #878888;
+	border-radius: 5px;
+	width: 656px;
+	height:47px;
+	margin: 20px auto;
+	margin-bottom: 0px;
+	overflow: hidden;
+}
+#search .input1{ 
+	/*border:1px solid red;*/
+	float: left;
+}
+#search .input1 input{ 
+	/*border:1px solid red;*/
+	font-size: 18px; 
+	width:536px;
+	height:47px;
+	float: left;
+}
+#search .input2{
+	/*border:1px solid red;*/
+	width:117px;
+	height:47px;
+	float: left;
+}
+#search .input2 input{
+	/*border:1px solid red;*/
+	width:120px;
+	font-size: 18px; 
+	color:#ffffff;
+	height:47px;
+	background:#4e8c75;
+}
+#search .input2 input:hover{
+	background:#2ea65f;
+}
+/*热门搜索*/
+#search .hot{
+	/*border:1px solid #878888;*/
+	width: 656px;
+	margin: 10px auto;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+#search .hot span{
+	color: #7e7e7e;
+}
+#search .hot a{
+	color: #7e7e7e;
+	margin-left:5px; 
+}
+#search .hot a:hover{
+	color: #ffffff;
+	text-decoration: none;
+	background: #2ea760;
+	border-radius: 2px;
+}
+
+
+#all-content .content{
+	/*border: #FF0004 solid 1px;*/
+	width: 1004px;
+
+}
+
+
+#all-content .content{
+	/*width:780px;*/
+	margin:10px auto;
+/*	border:1px solid red;*/
+}
+/*----------------table------------------------*/
+#all-content .content table {
+/*	border:1px solid #dddddd;*/
+	border-top:none;
+	margin:20px auto;
+	overflow: hidden;
+}
+#all-content .content table tr td{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align:left;
+}
+#all-content .content table tr td a{
+	margin-left: 10px;
+	border-radius: 2px;
+	background: #4e8c75;
+	color:#FFFFFF;
+	font-size: 14px;
+}
+#all-content .content table tr td a:hover{
+	text-decoration: none;
+	background: #2ea760;
+}
+#all-content .content table .tr1 td{
+	height:30px;
+	color:#000000;
+	text-align:left;
+	font-size: 18px;
+	padding-top:5px;
+	padding-bottom: 5px;
+
+}
+#all-content .content table .tr1 .td_title{
+	width:167px;
+	border-right:1px solid #adadad;
+	padding-left:10px;
+}
+
+#all-content .content table .tr1 .td_leixing{
+	width:180px;
+	border-right:1px solid #adadad;
+}
+
+#all-content .content table .tr1 .td_english{
+	width:170px;
+	border-right:1px solid #adadad;
+	
+}
+#all-content .content table .tr1 .td_usefor{
+	width:172px;
+	border-right:1px solid #adadad;
+	
+}
+#all-content .content table .tr1 .td_danwei{
+	width:170px;
+	border-right:1px solid #adadad;
+	
+}
+#all-content .content table .tr1 .td_chakan{
+	width:100px;
+	
+}
+
+
+
+/*---------------------------------------------*/
+/*banner条*/
+.content .banner{ 
+	/*border:1px solid #FF0004;*/
+	font-size:16px;
+	margin-top:40px;
+	margin-left:276px;
+}
+.content .banner a{
+	border:1px solid #dddddd;
+	border-radius:3px 3px;
+	padding:7px 12px 7px 12px;
+	margin:2px;
+	text-decoration: none;
+}
+.content .banner a:hover{
+	border:1px solid #00a1d6;
+	background:#00a1d6;
+ 	color:#ffffff;
+	
+}
+.content .banner .current{ 
+	border:1px solid #00a1d6;
+	border-radius:3px 3px;
+	padding:7px 12px 7px 12px;
+	margin:2px;
+	background:#00a1d6;
+ 	color:#ffffff;
+	font-weight: bold;
+}
+.content .banner .disable{
+	border:1px solid #dddddd;
+	border-radius:3px 3px;
+	padding:7px 12px 7px 12px;
+	margin:2px;
+	color:#dddddd;
+}
+.content .banner form{
+    /*border:1px solid #000000;*/
+	margin-top:20px;
+	margin-left:350px;
+	color:#99a2aa;
+}
+.content .banner form .in1{
+    border:1px solid #99a2aa;
+	width:49px;
+	height:24px;
+	border-radius: 3px;
+}
+.content .banner form .in2{
+    border:1px solid #00a1d6;
+	width:40px;
+	height:24px;
+	border-radius: 3px;
+	margin-left:5px;
+	color:#ffffff;
+	background:#00a1d6;
+	cursor:pointer;
+}
+/*banner条end*//* CSS Document */
+
+
+

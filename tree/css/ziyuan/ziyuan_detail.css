@@ -1,0 +1,213 @@
+/* CSS Document */
+
+#all-content{
+	/*border-right: 1px solid #9f9f9f;
+	border-left: 1px solid #9f9f9f;*/
+	width:1004px;
+	overflow:auto;
+	margin:0px auto;
+	background:#ffffff;
+	/*border:1px solid red;*/
+}
+/*title star*/
+#all-content .title{
+	border-bottom:2px solid #6dc17e;
+	width:1004px;
+	height:57px;
+}
+#all-content .title .nav{
+	/*border:1px solid #D70003;*/
+	margin-top:20px;
+	margin-left:30px;
+	color:#848484;
+	font-size: 16px;
+	float:left;
+		
+}
+#all-content .title .nav a{
+	/*border:1px solid #D70003;*/
+	text-decoration: none;
+	color:#848484;
+}
+#all-content .title .nav a:hover{
+	color:#6dc17e;
+}
+#all-content .title .background{
+	width: 109px;
+	height:57px;
+	background: url(../tips_picture/nei-nav.jpg) no-repeat;
+	float: left;
+}
+/*title end*/
+
+/*----------------------------------------*/
+/*内容star*/
+.content{
+	/*border:1px solid #FF0004;*/
+	width:1004px;
+	background:#ffffff;
+	margin:0px auto;
+	margin-bottom: 20px;
+	
+}
+
+/*----------------------------------------*/
+.content .content_title{
+	/*border:1px solid red;*/
+	color:#46716e;
+	font-size:24px;
+	padding-top:40px;
+	padding-bottom: 38px;
+	text-align: center;
+}
+.content  .span1{
+	color:#4a4a4a;
+	font-size: 16px;
+	padding-left: 20px;
+}
+.content .span2{
+	color:#666666;
+	font-size: 15px;
+	padding-left:10px;
+}
+
+
+/*huzhao*/
+.content .huzhao{
+	/*border:1px solid red;*/
+	
+}
+.content .huzhao .tit_background{
+	width:1004px;
+	height: 40px;
+	background: url(../tips_picture/ziyuan-1.png) no-repeat;
+}
+.content .huzhao .row{
+	border-bottom: 1px solid #ececec;
+	float:left;
+	padding-top:13px;
+	padding-bottom: 11px;
+	margin-left:20px;
+}
+.content .huzhao .row .line{
+	float: left;
+	width: 310px;
+}
+
+/*img*/
+.content .img{
+	/*border:1px solid red;*/
+	margin-top:10px;
+}
+.content .img .tit_background{
+	width:1004px;
+	height: 40px;
+	background: url(../tips_picture/ziyuan-2.png) no-repeat;
+}
+.content .img .tit_background .img_more{
+/*	border:1px solid red;*/
+	background: #ffffff;
+	float:right;
+	padding-top:7px;
+	padding-right:40px;
+	padding-left:10px;
+	color: #46716e;
+	cursor: pointer;
+}
+.content .img .tit_background .img_more a{
+	color: #46716e;
+}
+.content .img .tit_background .img_more a:hover{
+	color: #4cab70;
+}
+.content .img img{
+	width:221px;
+	height: 137px;
+	margin-left: 18px;
+	border-radius: 5px;
+}
+
+
+/*base*/
+.content .base{
+	/*border:1px solid red;*/
+	margin-top:10px;
+}
+.content .base .tit_background{
+	width:1004px;
+	height: 40px;
+	background: url(../tips_picture/ziyuan-3.png) no-repeat;
+}
+.content .base .row{
+	border-bottom: 1px solid #ececec;
+	float:left;
+	padding-top:13px;
+	padding-bottom: 11px;
+	margin-left:20px;
+}
+.content .base .row .line{
+	float: left;
+	width: 310px;
+}
+.content .base .row .line_1{
+	float: left;
+	width: 930px;
+}
+
+
+/*share*/
+.content .share{
+	/*border:1px solid red;*/
+	margin-top:10px;
+}
+.content .share .tit_background{
+	width:1004px;
+	height: 40px;
+	background: url(../tips_picture/ziyuan-4.png) no-repeat;
+}
+.content .share .row{
+	border-bottom: 1px solid #ececec;
+	float:left;
+	padding-top:13px;
+	padding-bottom: 11px;
+	margin-left:20px;
+}
+.content .share .row .line{
+	float: left;
+	width: 310px;
+}
+.content .share .row .line_1{
+	float: left;
+	width: 930px;
+}
+
+/*other*/
+.content .other{
+/*	border:1px solid red;*/
+	margin-top:10px;
+}
+.content .other .tit_background{
+	width:1004px;
+	height: 40px;
+	background: url(../tips_picture/ziyuan-5.png) no-repeat;
+}
+.content .other .row{
+	border-bottom: 1px solid #ececec;
+	float:left;
+	padding-top:13px;
+	padding-bottom: 11px;
+	margin-left:20px;
+}
+.content .other .row .line{
+	float: left;
+	width: 310px;
+}
+.content .other .row .line_1{
+	float: left;
+	width: 930px;
+}
+
+.content .iframe_ziyuan{
+	height: auto;
+	/*border:1px solid red;*/
+}

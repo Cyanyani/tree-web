@@ -1,0 +1,126 @@
+/* CSS Document */
+
+#all-content{
+	/*border-right: 1px solid #9f9f9f;
+	border-left: 1px solid #9f9f9f;*/
+	width:1004px;
+	overflow:auto;
+	margin:0px auto;
+	background:#ffffff;
+}
+/*title star*/
+/*图片库*/
+#all-content .title{
+	width: 1004px;
+	height: 77px;
+	background: url(../tips_picture/picture.png) no-repeat;
+	
+}
+/*title end*/
+/*----------------------------------------*/
+/*内容star*/
+.content{
+	/*border:1px solid #FF0004;*/
+	width:1004px;
+	background:#ffffff;
+	margin:0px auto;
+	margin-bottom: 20px;
+	
+}
+/*----------------------------------------*/
+/*con star*/
+.content .con{
+	/*border:1px solid #D71316;*/
+	width:1004px;
+}
+.content .con .tit{
+	/*border:1px solid #162AA4;*/
+    font-size: 20px;
+    color: #333;
+	font-weight: bold;
+    text-align: center;
+	padding-top: 30px;
+}
+.content .con .xijie{
+	/*border:1px solid #BC0BFF;*/
+    color: #777;
+    height: 24px;
+    text-align: center;
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+.content .con .xijie .xijie_a{
+	color:#4e8c75;
+	text-decoration: none;
+} 
+.content .con .xijie .xijie_a:hover{
+	background:#4e8c75; 
+	color:#ffffff;
+} 
+.content .con .main p{
+	line-height: 28px;
+    font-size: 15px;
+    color: #222;
+	text-indent: 30px;
+	margin-top:20px;
+	padding-left:40px;
+	padding-right:40px; 
+}
+.content .con .main .a{
+	/*border:1px solid  #FF0004;*/
+	width:1004px;
+	text-align: center;
+	margin-top:30px;
+	padding-bottom: 40px;
+}
+.content .con .main .a a{
+	text-decoration: none;
+	color: #222;
+}
+.content .con .main .xiazai{
+	border-top:2px solid #47716f;
+	width:980px;
+	margin:15px auto;	
+}
+.content .con .main .xiazai h4{
+	margin-top:5px;
+	color:#444444;
+}
+.content .con .main .xiazai a{
+	display: block;
+	margin-left:27px;
+	color:#444444;
+}
+.content .con .main .dayin{
+	display: block;
+	width: 80px;
+	height:23px;
+	text-align: center;
+	background: #47716f;
+	color:#ffffff;
+	border-radius:5px;
+  	margin-top:5px;
+	margin-left:780px;
+	float: left;
+}
+.content .con .main .fanhui{
+	display: block;
+	width: 80px;
+	height:23px;
+	text-align: center;
+	background: #47716f;
+	color:#ffffff;
+	border-radius:5px;
+  	margin-top:5px;
+	margin-left:15px;
+	float: left;
+	cursor: pointer;
+}
+
+/*con end*/
+
+
+
+
+
+

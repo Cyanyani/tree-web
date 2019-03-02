@@ -1,0 +1,89 @@
+/* CSS Document */
+/* CSS Document */
+body{
+	width: 814px;
+	height:800px;
+	margin: 0 0 0 0;
+	background: #FFFFFF;
+}
+
+/*---------------------------------------------*/
+/*title_nav*/
+#content .title{
+	border-bottom:2px solid #6dc17e;
+	width:814px;
+	height:57px;
+}
+#content .title .nav{
+	/*border:1px solid #D70003;*/
+	margin-top:20px;
+	margin-left:30px;
+	color:#848484;
+	font-size: 16px;
+	float:left;
+		
+}
+#content .title .nav a{
+	color:#848484;
+}
+#content .title .nav a:hover{
+	color:#6dc17e;
+	text-decoration: none;
+}
+#content .title .background{
+	width: 109px;
+	height:57px;
+	background: url(../tips_picture/nei-nav.jpg) no-repeat;
+	float: left;
+}
+
+/*content-star*/
+#content .service-apply{
+	width:800px;
+	height: 700px;
+	/*border:1px solid red;*/
+}
+#content .service-apply .p1{
+	color:#46716e;
+	font-size:20px;
+	text-align: center;
+	margin-top:30px;
+	font-weight: bold;
+}
+#content .service-apply .p2{
+	color:#46716e;
+	font-size:16px;
+	text-align: center;
+	margin-top:10px;
+}
+#content .service-apply .bird{
+	/*border:1px solid red;*/
+	height: 192px;
+	background: url(bird.png) no-repeat center;
+	margin-top:80px;
+	text-align: center;
+}
+#content .service-apply .p3{
+	color:#46716e;
+	font-size:20px;
+	text-align: center;
+	margin-top:25px;
+}
+#content .service-apply .p4{
+	color:#797979;
+	font-size:16px;
+	text-align: center;
+	margin-top:10px;
+}
+#content .service-apply .p5 {
+	text-align: center;
+	margin-top:10px;
+}
+#content .service-apply .p5 a{
+	color:#46716e;
+}
+#content .service-apply .p5 a:hover{
+	color:green;
+}
+/*content-end*/
+
